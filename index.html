@@ -17,7 +17,7 @@
     <div class="content vh-100 container-fluid d-flex justify-content-center align-items-center text-center">
         <div id="hello">
             <h1>{{title}}</h1>
-            <img @click="clicked" :class="classImage" :src="image" :alt="altImage">
+            <img @click.once="clicked" :class="classImage" :src="image" :alt="altImage">
             <!-- MEOW DIV  -->
             <div :class="meowClass">
                 <img :class="imageFluid" :src="meowImage" :alt="meowAlt">
@@ -33,4 +33,3 @@
 
 </html>
 
-<div class="pe"></div>
