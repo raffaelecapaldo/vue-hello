@@ -1,4 +1,3 @@
-
 const { createApp } = Vue
 
 createApp({
@@ -8,9 +7,9 @@ createApp({
             image: "img/uni.jpg",
             imageFluid: "image-fluid",
             altImage: "Uni birthday photo",
-            classImage: "rounded-circle img-fluid pointer-event cursor-pointer",
+            classImage: "rounded-circle img-fluid",
             meowImage: "img/meow.webp",
-            meowAlt: "meow fumetto",
+            meowAlt: "meow onomatopoeia",
             meowClass: "meow d-none",
 
         }
