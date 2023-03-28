@@ -1,3 +1,4 @@
+
 const { createApp } = Vue
 
 createApp({
@@ -18,6 +19,12 @@ createApp({
         clicked() {
             this.meowClass = "meow";
             const meowSong = new Audio("sounds/meowSong.mp3");
+            const confetti = new JSConfetti()
+            confetti.addConfetti({
+                emojis: ["😽", " 🎉"],
+                confettiNumber: 80,
+                emojiSize: 50
+            })
             meowSong.play();
         }
     }
