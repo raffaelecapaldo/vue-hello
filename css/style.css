@@ -1,0 +1,23 @@
+body {
+    background-color: rgb(160, 30, 30);
+}
+
+#hello {
+    position: relative;
+}
+
+#hello img {
+    cursor: pointer;
+}
+
+#hello h1 {
+    font-family: cursive;
+    color: orange;
+}
+
+.meow {
+    position: absolute;
+    top: 10%;
+    right: 18%;
+    width: 30%;
+}
